@@ -1,0 +1,11 @@
+/* ------------------------------------ DEFINE FONTS ------------------------------------*/
+@font-face
+{
+font-family: 'Hero';
+src: url('/static/fonts/Hero.otf');
+}
+
+#header{
+	height:40px;
+	background-color: black;
+}

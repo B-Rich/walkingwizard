@@ -1,0 +1,167 @@
+/* ------------------------------------ DEFINE FONTS ------------------------------------*/
+@font-face
+{
+font-family: 'RexBold';
+src: url('../fonts/RexBold.otf');
+}
+@font-face
+{
+font-family: 'RexLight';
+src: url('../fonts/RexLight.otf');
+}
+
+/* ------------------------------------ INDEX ------------------------------------*/
+body{
+	margin: 0 0 0 0px;
+}
+
+#header{
+	height:50px;
+	background-color: black;
+
+}
+
+#header img{
+	float: left;
+	margin-right: 44px;
+	margin-left: 44px;
+	margin-top: 9px;
+}
+
+#header #name{
+	font-family: 'RexLight', Helvetica;
+	color:white;
+	font-size: 48px;
+	float: left;
+	margin-top:7px;
+}
+
+#header #nav{
+	text-align: right;
+}
+#header a{
+	font-family: 'RexLight', Helvetica;
+	color:white;
+	font-size: 18px;
+	text-decoration: none;
+	margin-right: 18px;
+	position:relative;
+	top: 28px;
+}
+
+#terminal{
+	height: 420px;
+	background-color:white;
+}
+
+#terminal #terminal-frame{
+	height:320px;
+	width:470px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left:150px;
+	background-color:#fff;
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+	-moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+}
+
+#about{
+	height:280px;
+	background-color: #00a8a3;
+}
+
+#about h2{
+	font-family: 'Andale Mono';
+	color: white;
+	font-size: 27px;
+	padding-top: 25px;
+	margin-left: 150px;
+	font-weight: normal;
+}
+
+#about p{
+	font-family: 'Andale Mono';
+	color: white;
+	font-size: 14px;
+	margin-left: 150px;
+	margin-right: 200px;
+	text-align: justify;
+	width:470px;
+}
+
+#how_it_works{
+	height:280px;	
+}
+
+#how_it_works h2{
+	font-family: 'Andale Mono';
+	font-size: 27px;
+	padding-top: 25px;
+	margin-left: 150px;
+	font-weight: normal;	
+}
+
+#how_it_works img{
+	margin-left: 150px;
+	width:470px;
+}
+
+
+
+#footer{
+	height:280px;
+	background-color: black;
+	font-family: 'Andale Mono';
+	color:white;
+	text-align: center;
+}
+
+
+
+#footer .container{
+	padding-top:70px;
+	margin-left: 130px;
+}
+
+#footer #contact{
+	width: 165px;
+	float:left;
+	font-size: 12px;
+	border-right: 1px solid #00a8a3;
+	padding-bottom: 17px;
+	padding-top:16px;
+}
+
+#footer #motto{
+	width: 178px;
+	float: left;
+	font-size: 18px;
+	border-right: 1px solid #00a8a3;
+	padding-left: 10px;
+	padding-bottom: 42px;
+	padding-top:29px;
+	padding-right: 10px;
+}
+
+#footer #thanks{
+	width: 124px;
+	float:left;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-top: 16px;
+}
+
+#footer a{
+	text-decoration: none;
+	color:white;
+}
+
+/* ------------------------------------ TERMINAL ------------------------------------*/
+body{
+	font-family: 'Andale Mono';
+	font-size: 14px;
+}
+#container{
+	margin: 2px 1px 1px 1px;
+}
