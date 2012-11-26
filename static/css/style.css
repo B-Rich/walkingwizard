@@ -78,12 +78,14 @@ body{
 
 .twitter-share-button{
 	float: left;
-	padding-right: 15px;
+	text-align: right;
+	margin-top: 5px;
 }
 
 .fb-like{
 	float: left;
-	padding-right: 15px;
+	text-align: right;
+	margin-top: 5px;
 }
 
 #about{
