@@ -76,6 +76,16 @@ body{
 	-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
 }
 
+.twitter-share-button{
+	float: left;
+	padding-right: 15px;
+}
+
+.fb-like{
+	float: left;
+	padding-right: 15px;
+}
+
 #about{
 	height:280px;
 	background-color: #00a8a3;
