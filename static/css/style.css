@@ -15,6 +15,7 @@ body{
 	margin: 0 0 0 0px;
 }
 
+
 #header{
 	height:50px;
 	background-color: black;
@@ -23,8 +24,8 @@ body{
 
 #header img{
 	float: left;
-	margin-right: 44px;
-	margin-left: 44px;
+	margin-right: 70px;
+	margin-left: 70px;
 	margin-top: 9px;
 }
 
@@ -50,13 +51,22 @@ body{
 }
 
 #terminal{
-	height: 420px;
+	height: 480px;
 	background-color:white;
+}
+
+#terminal .container{
+	margin: 50px 200px 50px 200px;
+}
+#terminal iframe{
+	
+	width: 100%;
+	height: 420px;
 }
 
 #terminal #terminal-frame{
 	height:320px;
-	width:470px;
+	width:560px;
 	margin-bottom: 50px;
 	margin-top: 50px;
 	margin-left:150px;
@@ -71,40 +81,42 @@ body{
 	background-color: #00a8a3;
 }
 
+#about .container{
+	margin: 50px 200px 50px 200px;
+}
+
 #about h2{
 	font-family: 'Andale Mono';
 	color: white;
 	font-size: 27px;
 	padding-top: 25px;
-	margin-left: 150px;
 	font-weight: normal;
 }
 
 #about p{
 	font-family: 'Andale Mono';
 	color: white;
-	font-size: 14px;
-	margin-left: 150px;
-	margin-right: 200px;
+	font-size: 18px;
 	text-align: justify;
-	width:470px;
+	width:100%;
 }
 
 #how_it_works{
-	height:280px;	
+	height:520px;	
 }
 
+#how_it_works .container{
+	margin: 50px 200px 50px 200px;
+}
 #how_it_works h2{
 	font-family: 'Andale Mono';
 	font-size: 27px;
 	padding-top: 25px;
-	margin-left: 150px;
 	font-weight: normal;	
 }
 
 #how_it_works img{
-	margin-left: 150px;
-	width:470px;
+	width:100%;
 }
 
 
@@ -120,35 +132,36 @@ body{
 
 
 #footer .container{
-	padding-top:70px;
-	margin-left: 130px;
+	margin: 0px 200px 0px 200px;
+	padding-top: 50px;
 }
 
 #footer #contact{
-	width: 165px;
+	width: 30%;
 	float:left;
-	font-size: 12px;
+	font-size: 16px;
 	border-right: 1px solid #00a8a3;
 	padding-bottom: 17px;
 	padding-top:16px;
 }
 
 #footer #motto{
-	width: 178px;
+	width: 30%;
 	float: left;
-	font-size: 18px;
+	font-size: 20px;
 	border-right: 1px solid #00a8a3;
-	padding-left: 10px;
-	padding-bottom: 42px;
+	
+	padding-bottom: 90px;
 	padding-top:29px;
-	padding-right: 10px;
+	padding-left:15px;
+	padding-right:15px;
 }
 
 #footer #thanks{
-	width: 124px;
+	width: 30%;
 	float:left;
-	font-size: 12px;
-	padding-left: 10px;
+	font-size: 16px;
+	padding-left:20px;
 	padding-top: 16px;
 }
 
@@ -157,11 +170,3 @@ body{
 	color:white;
 }
 
-/* ------------------------------------ TERMINAL ------------------------------------*/
-body{
-	font-family: 'Andale Mono';
-	font-size: 14px;
-}
-#container{
-	margin: 2px 1px 1px 1px;
-}
